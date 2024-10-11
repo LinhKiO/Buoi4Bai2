@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#8BC34A">
+
+    <!-- Tiêu đề "CHỈNH SỬA THÔNG TIN SẢN PHẨM" -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM SẢN PHẨM"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"/>
+
+    <!-- Tên sản phẩm -->
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Giá sản phẩm -->
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá sản phẩm"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Mô tả sản phẩm -->
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả sản phẩm"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Nút Lưu sản phẩm -->
+    <Button
+        android:id="@+id/btnSaveProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu sản phẩm"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

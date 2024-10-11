@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#C7BD5F">
+
+    <!-- Tiêu đề "CHỈNH SỬA THÔNG TIN SẢN PHẨM" -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_marginTop="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHỈNH SỬA THÔNG TIN SẢN PHẨM"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"/>
+
+    <!-- Tên sản phẩm -->
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Giá sản phẩm -->
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá sản phẩm"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Mô tả sản phẩm -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả"
+        android:padding="12dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edit_text_bg"/>
+
+    <!-- Nút Lưu -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:textColor="@color/white"
+        android:backgroundTint="#4CAF50"
+        android:padding="16dp"
+        android:textSize="16sp"/>
+
+    <!-- Nút Xóa -->
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#f44336"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
